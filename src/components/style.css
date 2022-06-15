@@ -1,0 +1,146 @@
+.header, .about, .nav, .footer, .projects, .contact {
+    padding-top: 920px;
+    /* z-index: -1; */
+}
+
+/* 
+.header {
+    padding-top: 0px;
+    margin: 0px;
+    position: absolute;
+    top: 0;
+    display: block;
+    background-color: green;
+    width: 50%;
+    height: 100%;
+    transform: translateX(50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.head {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    font-size: 1rem;
+    margin: 0;
+    padding: 0;
+    background-color: red;
+}
+
+.info {
+    position: relative;
+    display: block;
+    padding: 0;
+    margin: 0;
+    width: 70%;
+    height: fit-content;
+    background-color: blue;
+    color: #000;
+}
+
+.img {
+    position: relative;
+    display: block;
+    padding: 0;
+    width: 30%;
+    height: fit-content;
+    background-color: blue;
+}
+
+.nav{
+    position: relative;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: fit-content;
+    color: #000;
+    background-color:yellow;
+    position: relative;
+} */
+
+
+
+
+.header {
+    position: relative;
+    /* position: absolute; */
+    /* padding: 0; */
+    /* margin: 0; */
+    /* top: 50%; */
+    background-color: aqua;
+    /* display: flex; */
+    /* width: 50%; */
+    /* height: 120%; */
+    /* flex-direction: row; */
+    /* z-index: -1; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* transform: translateY(50%); */
+    /* transform: translateX(50%); */
+}
+/* 
+.head {
+    top: 50%;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    font-size: 1rem;
+    margin: 0;
+    padding: 0;
+    background-color: red;
+}
+
+.info {
+    position: relative;
+    display: block;
+    padding: 0;
+    margin: 0;
+    width: 70%;
+    height: fit-content;
+    background-color: blue;
+    color: #000;
+} */
+
+.nav{
+    /* position: fixed; */
+    position: relative;
+    /* position: absolute; */
+    background-color: blueviolet;
+    /* display: flex; */
+    /* height: fit-content; */
+    /* width: fit-content; */
+    /* padding: 1rem; */
+    /* top: 50%; */
+    /* transform: translateY(100%); */
+    /* left: 50%; */
+    /* margin: 0; */
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* z-index: 4; */
+}
+
+.about{
+    background-color:aquamarine;
+    position: relative;
+    /* position: absolute; */
+}
+.footer{
+    background-color:wheat;
+    position: relative;
+    /* position: absolute; */
+}
+.contact{
+    background-color:red;
+    position: relative;
+    /* position: absolute; */
+}
+.projects{
+    background-color:blue;
+    position: relative;
+    /* position: absolute; */
+}
