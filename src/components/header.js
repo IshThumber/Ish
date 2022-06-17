@@ -16,7 +16,7 @@ const header = () => {
       </div> */}
 
       <div className="name">
-        <p>Hi! I'm <br /><strong>Ish Thumber</strong></p>
+        <p>Hi! I'm <br /><strong className="ish">Ish Thumber</strong></p>
 
       </div>
 

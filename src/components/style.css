@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+
 /* 
 .header {
     padding-top: 0px;
@@ -204,6 +206,10 @@
     /* background-color: green; */
     border: 1px solid;
     border-radius: 16px;
+}
+
+.ish {
+    font-family: 'Fredericka the Great', cursive;
 }
 
 .name {
