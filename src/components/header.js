@@ -1,6 +1,6 @@
 import React from 'react'
 import "./style.css"
-
+import url from "../assets/peep-43.png"
 const header = () => {
   return (
     <div className="header">
@@ -14,6 +14,16 @@ const header = () => {
           <img src="https://i.imgur.com/XqQXQZb.png" alt="Ish Thumber" />
         </div>
       </div> */}
+
+      <div className="name">
+        <p>Hi! I'm <br /><strong>Ish Thumber</strong></p>
+
+        <p> <strong>Pursuing Full Stack Developer</strong> and <strong>Enthusiastic Web Designer</strong></p>
+      </div>
+
+      <div className="img">
+        <img src={url} alt="Ish Thumber" />
+      </div>
     </div>
   )
 }

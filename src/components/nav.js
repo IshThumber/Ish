@@ -1,9 +1,8 @@
 import React from 'react'
-import "./style.css"
 
 const nav = () => {
   return (
-    <div className="nav">nav</div>
+    <div className="nav">Ish Thumber</div>
   )
 }
 

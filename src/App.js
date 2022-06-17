@@ -5,9 +5,9 @@ const App = () => {
         <div className="whole">
             <Nav />
             <Header />
+            <Projects />
             <About />
             <Contact />
-            <Projects />
             <Footer />
 
         </div>
