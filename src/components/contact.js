@@ -3,7 +3,14 @@ import "./style.css"
 
 const contact = () => {
   return (
-    <div className="contact">contact</div>
+    <div className="contact">
+      <div className="contact-info">
+        <h1>Contact</h1>
+      </div>
+      <div className="contact-text">
+        
+      </div>
+    </div>
   )
 }
 

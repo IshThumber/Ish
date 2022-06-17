@@ -1,6 +1,6 @@
 import React from 'react'
 import "./style.css"
-import url from "../assets/Open Peeps - Bust (1) 1.svg"
+import url from "../assets/Component 1.svg"
 const header = () => {
   return (
     <div className="header">
@@ -18,7 +18,6 @@ const header = () => {
       <div className="name">
         <p>Hi! I'm <br /><strong>Ish Thumber</strong></p>
 
-        <p> <strong>Pursuing Full Stack Developer</strong> and <strong>Enthusiastic Web Designer</strong></p>
       </div>
 
       <div className="img">
