@@ -2,7 +2,7 @@ import React from 'react'
 
 const nav = () => {
   return (
-    <div className="nav">Ish Thumber</div>
+    <div className="nav">ishthumber.me</div>
   )
 }
 

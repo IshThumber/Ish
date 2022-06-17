@@ -120,15 +120,17 @@
     /* position: absolute; */
 }
 
-.nav{
+.nav {
     background-color: yellow;
     position: relative;
     display: flex;
-    font-size: 3.4rem;
+    font-size: 2rem;
     justify-content: start;
     align-self: center;
-    width: 50%;
+    width: calc(100% - 15rem);
+    padding-left: 15rem;
 }
+
 .header {
     font-size: 2rem;
     position: relative;
