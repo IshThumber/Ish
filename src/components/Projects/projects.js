@@ -1,6 +1,6 @@
 import React from 'react'
-import "./style.css"
-import img from "../assets/404.svg"
+import "../style.css"
+import img from "../../assets/404.svg"
 
 const projects = () => {
   return (

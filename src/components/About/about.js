@@ -1,6 +1,6 @@
 import React from 'react'
-import "./style.css"
-import img from "../assets/undraw_handcrafts_computer.svg";
+import "../style.css"
+// import img from "../../assets/undraw_handcrafts_computer.svg";
 
 
 

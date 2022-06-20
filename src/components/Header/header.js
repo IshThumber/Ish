@@ -1,6 +1,6 @@
 import React from 'react'
-import "./style.css"
-import url from "../assets/Component 1.svg"
+import "../style.css"
+import url from "../../assets/Component 1.svg"
 const header = () => {
   return (
     <div className="header">
