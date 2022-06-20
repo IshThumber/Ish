@@ -8,8 +8,10 @@ const projects = () => {
       <div className="project-info">
         <h1>Projects</h1>
       </div>
-      <img className="img404" src={img} alt="df">
-      </img>
+      <div className="project-img">
+        <img className="img404" src={img} alt="df">
+        </img>
+      </div>
     </div>
   )
 }

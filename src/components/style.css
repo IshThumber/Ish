@@ -1,109 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
 
-/* 
-.header {
-    padding-top: 0px;
-    margin: 0px;
-    position: absolute;
-    top: 0;
-    display: block;
-    background-color: green;
-    width: 50%;
-    height: 100%;
-    transform: translateX(50%);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #fff;
-}
-
-.head {
-    position: relative;
-    display: flex;
-    flex-direction: row;
-    font-size: 1rem;
-    margin: 0;
-    padding: 0;
-    background-color: red;
-}
-
-.info {
-    position: relative;
-    display: block;
-    padding: 0;
-    margin: 0;
-    width: 70%;
-    height: fit-content;
-    background-color: blue;
-    color: #000;
-}
-
-.img {
-    position: relative;
-    display: block;
-    padding: 0;
-    width: 30%;
-    height: fit-content;
-    background-color: blue;
-}
-
-.nav{
-    position: relative;
-    display: flex;
-    padding: 0;
-    margin: 0;
-    width: 100%;
-    height: fit-content;
-    color: #000;
-    background-color:yellow;
-    position: relative;
-} */
-
-
-
-
-/* .header { */
-/* position: relative; */
-/* position: absolute; */
-/* padding: 0; */
-/* margin: 0; */
-/* top: 50%; */
-/* background-color: aqua; */
-/* display: flex; */
-/* width: 50%; */
-/* height: 120%; */
-/* flex-direction: row; */
-/* z-index: -1; */
-/* justify-content: center; */
-/* align-items: center; */
-/* transform: translateY(50%); */
-/* transform: translateX(50%); */
-/* } */
-
-/* 
-.head {
-    top: 50%;
-    position: relative;
-    display: flex;
-    flex-direction: row;
-    font-size: 1rem;
-    margin: 0;
-    padding: 0;
-    background-color: red;
-}
-
-.info {
-    position: relative;
-    display: block;
-    padding: 0;
-    margin: 0;
-    width: 70%;
-    height: fit-content;
-    background-color: blue;
-    color: #000;
-} */
-
-
 .footer {
     /* background-color: wheat; */
     position: relative;
@@ -149,19 +45,27 @@
     padding: 2rem;
     border: 1px solid;
     border-radius: 10px;
-
-    /* position: absolute; */
 }
 
 .project-info {
     position: relative;
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 0;
     margin: 0;
     width: 100%;
     height: fit-content;
     /* background-color: blue; */
+}
 
+.project-img {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
 }
 
 .img404 {
@@ -169,31 +73,45 @@
     width: 23rem;
 }
 
-.nav {
+.navbar {
+    z-index: 1;
+    position: fixed;
     /* background-color: yellow; */
-    /* background: rgba(255, 255, 255, 0.22); */
-    /* border-radius: 16px; */
-    box-shadow: 0 4px 30px rgba(255, 255, 255, 0.1);
-    backdrop-filter: blur(6.8px);
-    -webkit-backdrop-filter: blur(6.8px);
-    /* border: 1px solid rgba(255, 255, 255, 0.06); */
-
-    position: relative;
+    background: rgba(255, 255, 255, 0.05);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6.9px);
+    -webkit-backdrop-filter: blur(6.9px);
+    border: 1px solid rgba(255, 255, 255, 0.13);
     display: flex;
+    flex-direction: row;
     font-size: 1.2rem;
     justify-content: start;
     align-self: center;
     width: calc(100% - 15rem);
     padding-left: 15rem;
     padding-top: 1rem;
+}
 
+.icons {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    font-size: 1.2rem;
+    justify-content: end;
+    align-self: center;
+    width: calc(100% - 15rem);
+    padding-right: 15rem;
+}
+
+.instagram, .linkedin, .github {
+    margin-left: 1.3rem;
 }
 
 .header {
     font-size: 2rem;
     position: relative;
     display: flex;
-    margin-top: 2rem;
+    margin-top: 4rem;
     padding-top: 8rem;
     justify-content: center;
     align-items: center;
@@ -251,9 +169,22 @@
 
 .about-text {
     position: relative;
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 0;
     margin: 0;
     width: 100%;
     height: fit-content;
+}
+
+.about-info{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    width: 90%;
+    /* height: fit-content; */
 }
