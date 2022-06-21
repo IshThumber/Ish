@@ -13,7 +13,8 @@ body {
     flex-direction: column;
     width: 100%;
     z-index: -1;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Pacifico', cursive;
+    /* font-family: 'Poppins', sans-serif; */
 }
 
 body::-webkit-scrollbar {
@@ -21,3 +22,6 @@ body::-webkit-scrollbar {
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fascinate&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Satisfy&display=swap');

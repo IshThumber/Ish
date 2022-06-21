@@ -3,13 +3,14 @@ import React from 'react'
 // import LinkedInIcon from '@mui/icons-material/LinkedIn';
 // import InstagramIcon from '@mui/icons-material/Instagram';
 import { FaGithub, FaLinkedinIn, FaInstagram } from "react-icons/fa";
+import "./nav.css"
 
 
 const nav = () => {
   return (
     <div className="navbar">
       <div className="nav">
-        <a href="">
+        <a className="site" href="">
           ishthumber.me
         </a>
       </div>

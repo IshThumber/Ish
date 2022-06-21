@@ -1,10 +1,7 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');1 */
-
 .footer {
     /* background-color: wheat; */
     position: relative;
     /* position: absolute; */
-
     display: flex;
     flex-direction: row;
     font-size: 1rem;
@@ -15,14 +12,14 @@
 }
 
 .contact {
-    background-color: red;
+    /* background-color: red; */
     position: relative;
     display: flex;
     flex-direction: column;
     width: calc(60%);
     justify-content: center;
     align-self: center;
-    margin : 2rem 0;
+    margin: 2rem 0;
     padding: 2rem;
     border: 1px solid;
     border-radius: 10px;
@@ -30,7 +27,7 @@
 
 .contact-info {
     position: relative;
-    background-color: blue;
+    /* background-color: blue; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -49,7 +46,7 @@
     width: calc(60%);
     justify-self: center;
     align-self: center;
-    margin : 2rem 0;
+    margin: 2rem 0;
     padding: 2rem;
     border: 1px solid;
     border-radius: 10px;
@@ -81,6 +78,11 @@
     width: 23rem;
 }
 
+.site {
+    text-decoration: none;
+    color: gray;
+}
+
 .navbar {
     z-index: 1;
     position: fixed;
@@ -95,8 +97,8 @@
     font-size: 1.2rem;
     justify-content: start;
     align-self: center;
-    width: 70%;
-    /* padding-left: 15rem; */
+    width: calc(100% - 15rem);
+    padding-left: 15rem;
     padding-top: 1rem;
 }
 
@@ -107,8 +109,8 @@
     font-size: 1.2rem;
     justify-content: end;
     align-self: center;
-    width: calc(100%);
-    /* padding-right: 15rem; */
+    width: calc(100% - 15rem);
+    padding-right: 15rem;
 }
 
 .instagram, .linkedin, .github {
@@ -123,7 +125,7 @@
     padding-top: 8rem;
     justify-content: center;
     align-items: center;
-    width: 60%;
+    width: 50%;
     height: fit-content;
     justify-content: center;
     align-items: center;
@@ -135,7 +137,9 @@
 }
 
 .ish {
-    font-family: 'Fredericka the Great', cursive;
+    /* font-family: 'Fascinate', cursive; */
+    font-family: 'Great Vibes', cursive;
+    /* font-family: 'Satisfy', cursive; */
 }
 
 .name {
@@ -187,7 +191,7 @@
     height: fit-content;
 }
 
-.about-info{
+.about-info {
     position: relative;
     display: flex;
     justify-content: center;

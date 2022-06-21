@@ -1,5 +1,5 @@
 import React from 'react'
-import "../style.css"
+import "./about.css"
 // import img from "../../assets/undraw_handcrafts_computer.svg";
 
 
