@@ -1,0 +1,7 @@
+export { default as Nav } from './Nav/nav'
+export { default as Header } from './Header/header'
+export { default as About } from './About/about'
+export { default as Contact } from './Contact/contact'
+export { default as Footer } from './Footer/footer'
+export { default as Projects } from './Projects/projects'
+export { default as Skills } from './Skills/skills'
