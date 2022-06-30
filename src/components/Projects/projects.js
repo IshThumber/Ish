@@ -1,9 +1,13 @@
 import React from 'react'
+import "../../background.css"
 import "./projects.css"
 
 const projects = () => {
   return (
-    <div className="projects">projects</div>
+    <div className="projects">
+      <div className="projects-container">
+      </div>
+    </div>
   )
 }
 

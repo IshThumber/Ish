@@ -1,10 +1,12 @@
 import React from 'react'
 import "./about.css"
+import "../../background.css"
 
 const about = () => {
   return (
     <div className="about">
-      about
+      <div className="about-container">
+      </div>
     </div>
   )
 }

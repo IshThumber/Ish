@@ -1,7 +1,5 @@
 import React from 'react'
-
-
-
+import "../../background.css"
 import "./nav.css"
 
 const nav = () => {
@@ -10,12 +8,6 @@ const nav = () => {
       <div className="nav-container">
         <div className="nav-site">
           <a href="/" className="nav-site-link">ishthumber.me</a>
-        </div>
-        <div className="nav-icons">
-          <a href="/" className="nav-icons-link">GitHub</a>
-          <a href="/" className="nav-icons-link">Instagram</a>
-          <a href="/" className="nav-icons-link">Twitter</a>
-          <a href="/" className="nav-icons-link">LinkedIn</a>
         </div>
       </div>
     </div >

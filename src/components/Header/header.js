@@ -1,23 +1,27 @@
 import React from 'react'
 import "./header.css"
+import '../../fonts/Bombing.ttf'
+import "../../background.css"
+// import img from '../../assets/Body.svg'
 
 const header = () => {
   return (
     <div className="header">
       <div className="header-container">
         <div className="header-img">
-          <img src="https://i.imgur.com/XqQXQZb.png" alt="ish thumber" />
+          {/* <img src={img} alt="ish thumber" /> */}
+          <div className="imgg">
+            dfdg
+          </div>
         </div>
         <div className="header-name">
           <h1>Ish Thumber</h1>
         </div>
+        {/* <div className="socials"> */}
+        {/* </div> */}
       </div>
     </div>
   )
 }
 
 export default header
-
-// organic
-// fluo gums
-// bombing
