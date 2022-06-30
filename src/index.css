@@ -5,5 +5,10 @@ body {
 }
 
 body::-webkit-scrollbar {
-    display: none;
+    /* display: none; */
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fascinate&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Satisfy&display=swap');

@@ -6,12 +6,14 @@ const App = () => {
   return (
     <div className="page">
       <Nav />
+      {/* <main> */}
       <Header />
-      <Projects />
-      <Skills />
-      <About />
-      <Contact />
-      <Footer />
+      {/* <Projects /> */}
+      {/* <Skills /> */}
+      {/* <About /> */}
+      {/* <Contact /> */}
+      {/* <Footer /> */}
+      {/* </main> */}
     </div>
   )
 }
