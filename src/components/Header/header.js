@@ -2,16 +2,15 @@ import React from 'react'
 import "./header.css"
 import '../../fonts/Bombing.ttf'
 import "../../background.css"
-// import img from '../../assets/Body.svg'
+import img from '../../assets/mann.svg'
 
 const header = () => {
   return (
     <div className="header">
       <div className="header-container">
         <div className="header-img">
-          {/* <img src={img} alt="ish thumber" /> */}
           <div className="imgg">
-            dfdg
+            <img className="img" src={img} alt="ish thumber" />
           </div>
         </div>
         <div className="header-name">

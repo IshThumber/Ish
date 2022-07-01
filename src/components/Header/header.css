@@ -31,9 +31,10 @@
     display: flex;
     justify-content: end;
     align-items: center;
-    font-size: 2rem;
+    /* font-size: 2rem; */
     /* background-color: aqua; */
-    /* color: beige; */
+    color: beige;
+    font-family: ;
 }
 
 .header-img {
@@ -43,7 +44,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: blue;
+    /* background-color: blue; */
 }
 
 .imgg{
@@ -53,5 +54,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: red;
+    /* background-color: red; */
+}
+.img{
+    /* height: 600px; */
+    height: 30rem;
 }
